@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Audiowide';
+    src: url('../assets/fonts/Audiowide-Regular.woff2') format('woff2'),
+        url('../assets/fonts/Audiowide-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Oxanium';
+    src: url('../assets/fonts/Oxanium-ExtraLight.woff2') format('woff2'),
+        url('../assets/fonts/Oxanium-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
