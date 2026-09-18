@@ -283,11 +283,11 @@ p{
     saturate(0%)
     brightness(100%)
     contrast(100%);
-            filter: invert(50%)
-    sepia(0%)
-    saturate(0%)
-    brightness(100%)
-    contrast(100%);
+    filter: invert(50%)
+        sepia(0%)
+        saturate(0%)
+        brightness(100%)
+        contrast(100%);
     -webkit-animation: arrow-glow 3s ease-in-out infinite alternate;
             animation: arrow-glow 3s ease-in-out infinite alternate;
     
@@ -476,6 +476,28 @@ p{
         animation-range: 0 40%;
     }
 }
+/* Download Style */
+.resume{
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    display: flex;
+    background: var(--neon-purple);
+    border-right: 0;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+.resume:hover{
+    color: var(--text-primary);
+    box-shadow: 0 0 5px var(--neon-pink), 0 0 15px var(--neon-pink);
+}
+.resume img{
+    width: 25px;
+}
+.resume p{
+    font-size: 15px;
+    text-transform: uppercase;
+}
 
 /* Popup Style */
 .proj-popup{
@@ -509,7 +531,6 @@ p{
     width: clamp(320px, 100%, 1000px);
     height: 600px;
     z-index: 1000;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
     overflow: auto;
     padding: 20px;
     max-height: -webkit-max-content;
