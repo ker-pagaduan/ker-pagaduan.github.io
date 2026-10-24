@@ -7,9 +7,14 @@
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/animations.css">
 <link rel="stylesheet" href="css/fonts.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <script src="js/main.js" defer></script>
 </head>
 <body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
     <nav id="main-nav">
         <div class="container">
             <ul>
@@ -25,19 +30,19 @@
             <div class="row">
                 <div class="space-gap section-wrap">
 
-                    <div class="person-image">
+                    <div class="person-image" data-aos="zoom-in" data-aos-duration="1000">
                         <img src="assets/img/misc/ker.png" alt="Ker Pagaduan">
                     </div>
 
-                    <h1>KERLLY PAGADUAN</h1>
+                    <h1 data-aos="zoom-in" data-aos-duration="1000">KERLLY PAGADUAN</h1>
 
-                    <div class="heading-border">
+                    <div class="heading-border" data-aos-duration="1500" data-aos="flip-down">
                         <div class="heading-container">
                             <h2>About Me</h2>
                         </div>
                     </div>
 
-                    <p>
+                    <p data-aos="zoom-in" data-aos-duration="1000">
                         I am a web developer who enjoy learning new things and taking on challenges.
                         I've always been curious about web development and programming in general and love exploring new technologies and constantly improving the way I build things.
                     </p>
@@ -49,9 +54,12 @@
 
     <div class="arrow-gap">
         <a class="arrow-img" href="#skills">
-            <img src="assets/icons/down-chevron.svg" alt="down arrow">
-            <img src="assets/icons/down-chevron.svg" alt="down arrow">
-            <img src="assets/icons/down-chevron.svg" alt="down arrow">
+            <img src="assets/icons/down-chevron.svg" alt="down arrow" data-aos="fade-down" data-aos-easing="linear"
+                data-aos-duration="800" data-aos-delay="300">
+            <img src="assets/icons/down-chevron.svg" alt="down arrow" data-aos="fade-down" data-aos-easing="linear"
+                data-aos-duration="800" data-aos-delay="200">
+            <img src="assets/icons/down-chevron.svg" alt="down arrow" data-aos="fade-down" data-aos-easing="linear"
+                data-aos-duration="800" data-aos-delay="100">
         </a>
     </div>
 
@@ -59,7 +67,7 @@
         <div class="container">
             <div class="my-skills space-gap section-wrap">
 
-                <div class="heading-border">
+                <div class="heading-border" data-aos-duration="1500" data-aos="flip-down" data-aos-anchor-placement="bottom-bottom">
                     <div class="heading-container">
                         <h2>Skills</h2>
                     </div>
@@ -91,7 +99,7 @@
         <div class="container">
             <div class="my-works space-gap section-wrap">
 
-                <div class="heading-border">
+                <div class="heading-border" data-aos-duration="1500" data-aos="flip-down" data-aos-anchor-placement="bottom-bottom">
                     <div class="heading-container">
                         <h2>My Works</h2>
                     </div>
@@ -99,7 +107,7 @@
                 
                 <div class="projects">
 
-                    <div class="proj">
+                    <div class="proj" data-aos="zoom-in">
                         <div class="proj-inner">
                             <div class="proj-img">
                                 <img src="assets/img/portfolio/purecolor.png">
@@ -107,7 +115,7 @@
                         </div>
                     </div>
 
-                    <div class="proj">
+                    <div class="proj" data-aos="zoom-in">
                         <div class="proj-inner">
                             <div class="proj-img">
                                 <img src="assets/img/portfolio/smokeless.png">
@@ -115,7 +123,7 @@
                         </div>
                     </div>
 
-                    <div class="proj">
+                    <div class="proj" data-aos="zoom-in">
                         <div class="proj-inner">
                             <div class="proj-img">
                                 <img src="assets/img/portfolio/smokefree.png">
@@ -123,7 +131,7 @@
                         </div>
                     </div>
 
-                    <div class="proj">
+                    <div class="proj" data-aos="zoom-in">
                         <div class="proj-inner">
                             <div class="proj-img">
                                 <img src="assets/img/portfolio/steam-discount.png">
@@ -131,7 +139,7 @@
                         </div>
                     </div>
 
-                    <div class="proj">
+                    <div class="proj" data-aos="zoom-in">
                         <div class="proj-inner">
                             <div class="proj-img">
                                 <img src="assets/img/portfolio/bootstrap.png">
@@ -145,7 +153,8 @@
         </div>
     </section>
 
-    <a class="resume" href="assets/Kerlly Pagaduan.pdf" target="_blank">
+    <a class="resume" href="assets/Kerlly Pagaduan.pdf" target="_blank" data-aos="zoom-in" data-aos-anchor-placement="top-bottom"
+        data-aos-duration="1500">
         <img src="assets/icons/download.svg"><p>Resume</p>
     </a>
 
